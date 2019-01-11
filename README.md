@@ -9,6 +9,8 @@
 
 > Simple number conversion.
 
+![](/screenshot.png)
+
 ## Install
 
 ```

@@ -7,7 +7,7 @@ test('should show help info', async t => {
   const res = await execa('./cli.js');
   t.is(
     res.stdout,
-    `${name} ~ ${version}\nNumber conver tools in command line\n  $ conver 10\n  $ conver 101\n  $ conver 1000`
+    `${name} ~ ${version}\nNumber conver tools in command line\n  $ ${name} 10\n  $ ${name} 101 1000`
   );
 });
 
