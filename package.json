@@ -1,0 +1,43 @@
+{
+  "name": "num-conver",
+  "version": "0.0.0",
+  "description": "Simple number conversion.",
+  "license": "MIT",
+  "repository": "ZYSzys/num-conver",
+  "author": {
+    "name": "ZYSzys",
+    "email": "17367077526@163.com",
+    "url": "zyszys.github.io"
+  },
+  "bin": "cli.js",
+  "engines": {
+    "node": ">=6"
+  },
+  "scripts": {
+    "test": "npm run lint && nyc ava -v",
+    "lint": "prettier --write *.js"
+  },
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
+  "keywords": [
+    "cli-app",
+    "cli",
+    ""
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "0.25.0",
+    "codecov": "3.1.0",
+    "execa": "1.0.0",
+    "nyc": "13.0.1",
+    "prettier": "*"
+  },
+  "nyc": {
+    "reporter": [
+      "lcov",
+      "text"
+    ]
+  }
+}
