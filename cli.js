@@ -8,9 +8,8 @@ const { name, version } = require('./package');
 if (!process.argv[2]) {
   console.log(`${name} ~ ${version}`);
   console.log('Number conver tools in command line');
-  console.log('  $ conver 10');
-  console.log('  $ conver 101');
-  console.log('  $ conver 1000');
+  console.log('  $ num-conver 10');
+  console.log('  $ num-conver 101 1000');
   process.exit(0);
 }
 

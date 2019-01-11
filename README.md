@@ -1,6 +1,6 @@
 # num-conver
 
-[![Build Status](https://travis-ci.org/ZYSzys/num-conver.svg?branch=master)](https://travis-ci.org/ZYSzys/num-conver)
+[![Build Status](https://travis-ci.com/ZYSzys/num-conver.svg?branch=master)](https://travis-ci.com/ZYSzys/num-conver)
 [![codecov](https://codecov.io/gh/ZYSzys/num-conver/badge.svg?branch=master)](https://codecov.io/gh/ZYSzys/num-conver?branch=master)
 [![NPM version](https://img.shields.io/npm/v/num-conver.svg?style=flat)](https://npmjs.com/package/num-conver)
 [![NPM downloads](https://img.shields.io/npm/dm/num-conver.svg?style=flat)](https://npmjs.com/package/num-conver)
@@ -17,16 +17,12 @@ $ npm install --global num-conver
 
 ## Usage
 ```
-$ num-conver --help
-
-  Usage
-    num-conver [input]
-
-  Examples
-    $ num-conver 10
-    unicorns & rainbows
-    $ num-conver 10 100
-    ponies & rainbows
+$ num-conver
+num-conver ~ 0.0.1
+Number conver tools in command line
+  $ num-conver 10
+  $ num-conver 101
+  $ num-conver 1000
 ```
 
 
