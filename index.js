@@ -4,9 +4,16 @@ module.exports = (input, options = {}) => {
   const type = typeof input;
 
   // transform to number
-  input = +input;
+  try {
+    input = eval(input);
+  } catch (e) {
+    input = NaN;
+  }
+
   if (Number.isNaN(input)) {
-    throw new TypeError(`Expected a number, got ${type}`);
+    return {
+      error: `Expected a number, got ${type}`
+    };
   }
 
   return {

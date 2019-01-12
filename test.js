@@ -11,9 +11,14 @@ test('should show help info', async t => {
   );
 });
 
+test('should output error', async t => {
+  const res = await execa('./cli.js', ['str']);
+  t.is(res.stdout, `str:\n { error: 'Expected a number, got string' }`);
+});
+
 test('should conver number', async t => {
-  const res = await execa('./cli.js', ['10']);
-  t.is(res.code, 0);
+  const res = await execa('./cli.js', [100]);
+  t.is(res.stdout, `100:\n { binary: '1100100', decimal: 4 }`);
 });
 
 test('should conver multiple numbers', async t => {
