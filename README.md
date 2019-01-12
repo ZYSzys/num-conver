@@ -20,11 +20,10 @@ $ npm install --global num-conver
 ## Usage
 ```
 $ num-conver
-num-conver ~ 0.0.1
+num-conver ~ 0.0.3
 Number conver tools in command line
   $ num-conver 10
-  $ num-conver 101
-  $ num-conver 1000
+  $ num-conver 101 1000
 ```
 
 

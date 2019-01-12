@@ -24,7 +24,11 @@
   "keywords": [
     "cli-app",
     "cli",
-    ""
+    "number",
+    "conver",
+    "conversion",
+    "binary",
+    "decimal"
   ],
   "dependencies": {},
   "devDependencies": {
